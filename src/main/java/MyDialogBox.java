@@ -15,7 +15,7 @@ public class MyDialogBox {
 
 //    String name = JOptionPane.showInputDialog("What is your name?: ");
 //    System.out.println("Hello, " + name);
-
+//
     String[] responses = {"No, you're awesome!", "Thank you!","*blush*"};
     ImageIcon icon = new ImageIcon("resources/logo.png");
     JOptionPane.showOptionDialog(null,

@@ -3,7 +3,7 @@ import javax.swing.plaf.multi.MultiProgressBarUI;
 public class Main {
 
   public static void main(String[] args) {
-//    MyFrame myFrame = new MyFrame();
+    MyFrame myFrame = new MyFrame();
 //    MyBorder myBorder = new MyBorder();
 //    MyFlow myFlow = new MyFlow();
 //    MyGrid myGrid = new MyGrid();
@@ -23,7 +23,7 @@ public class Main {
 //    MyDragDrop myDragDrop = new MyDragDrop();
 //    MyKeyBinding myKeyBinding = new MyKeyBinding();
 //    My2DGraphics my2DGraphics = new My2DGraphics();
-    MyAnimation myAnimation = new MyAnimation();
+//    MyAnimation myAnimation = new MyAnimation();
   }
 
 }

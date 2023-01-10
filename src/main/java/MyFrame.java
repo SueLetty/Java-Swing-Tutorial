@@ -71,10 +71,10 @@ public class MyFrame extends JFrame implements ActionListener{
 //    this.setResizable(false);
     this.setSize(750,750);
     this.setVisible(true);
-//    redPanel.add(jLabel);
-//    this.add(redPanel);
-//    this.add(bluePanel);
-//    this.add(greenPanel);
+    redPanel.add(jLabel);
+    this.add(redPanel);
+    this.add(bluePanel);
+    this.add(greenPanel);
     this.add(button);
     this.add(jLabel);
 
@@ -88,5 +88,9 @@ public class MyFrame extends JFrame implements ActionListener{
 //      button.setEnabled(false);
       jLabel.setVisible(true);
     }
+  }
+
+  public static void main(String[] args) {
+    new MyFrame();
   }
 }
